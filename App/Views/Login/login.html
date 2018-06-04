@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block body %}
+	<h1>Sign In</h1>
+    <form action="/login/create" method="post">
+    	<table>
+    		<tr>
+    			<td>Email</td>
+    			<td><input id="inputEmail" name="email" placeholder="email address" value="{{ email }}" required type="email" /></td>
+    		</tr>
+    		<tr>
+    			<td>Password</td>
+    			<td><input type="password" id="inputPassword" name="password" placeholder="Password" required /></td>
+    		</tr>
+            <tr>
+                <td><input type="checkbox" name="remember_me"{% if remember_me %} checked="checked" {% endif %} />Remember Me</td>
+            </tr>
+    		<tr>
+    			<td></td>
+    			<td><input type="submit" name="submit" value="Login"></td>
+    		</tr>
+    	</table>
+    </form>
+
+{% endblock %}

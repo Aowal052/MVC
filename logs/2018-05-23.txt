@@ -1,0 +1,16 @@
+[23-May-2018 05:19:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Signup not found'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(22): Core\Router->dispatch('signup/signup')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 72
+[23-May-2018 05:27:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Signup not found'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(22): Core\Router->dispatch('Signup/signup')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 72
+[23-May-2018 05:27:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Signup not found'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(22): Core\Router->dispatch('Signup/signup')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 72
+[23-May-2018 05:27:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Signup not found'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(22): Core\Router->dispatch('Signup/signup')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 72

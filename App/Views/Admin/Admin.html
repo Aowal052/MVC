@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Admin{% endblock %}
+
+{% block body %}
+
+    <h1>Admin</h1>
+
+	{% if current_user %}
+    Hello {{ current_user.user_name }}.
+    {% endif %}
+
+{% endblock %}

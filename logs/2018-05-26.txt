@@ -1,0 +1,4 @@
+[26-May-2018 07:49:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(24): Core\Router->dispatch('signups')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 75
